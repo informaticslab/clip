@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Preferences</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>Title</key>
+			<string>Facility ID</string>
+			<key>Key</key>
+			<string>facility_preference</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Direct Address</string>
+			<key>Key</key>
+			<string>direct_address</string>
+			<key>KeyboardType</key>
+			<string>EmailAddress</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string></string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>web_service_token</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Web Service Token</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Key</key>
+			<string>req_field_check</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Title</key>
+			<string>Required Field Check</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
